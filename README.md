@@ -1,31 +1,33 @@
 # Carbon Credit Market Place & Dashboard
 
-A user-friendly dashboard to display all available carbon credit on the Toucan platform. Querying the Toucan graph data and interacting with the Toucan SDK. This Dapp interacts with the Toucan sdk and the graph on the Celo alfajores network.
+# Requirements for In-Built DEX Integration using Uniswap V3 on Celo Testnet:
 
-# Project Description
-CarbonXchange is a decentralized application (DApp) that aims to revolutionize the carbon credit market by providing a platform for buying and selling carbon credits in a transparent and efficient manner. The DApp consists of two main components: a carbon storefront and a climate impact dashboard.
+In-Built DEX (Decentralized Exchange) Integration:
 
-## Carbon Storefront:
-The carbon storefront allows users to browse and purchase carbon credits from various pools available on the platform. These pools represent verified and certified carbon offset projects from around the world. Users can explore different carbon credit options, view project details, and choose the credits that align with their sustainability goals. The storefront provides a seamless and secure payment process using cryptocurrency, enabling easy and borderless transactions.
+Implement Uniswap V3 protocol to enable users to convert other cryptocurrencies to NatureFi (NFI) tokens within the DApp.
+Provide a seamless and secure cryptocurrency conversion process using Uniswap V3 exchange.
+Token Deployment:
 
-## Climate Impact Dashboard:
-The climate impact dashboard provides users with a comprehensive overview of their carbon footprint and environmental impact. Users can connect their accounts and explore their retirement portfolios to assess the carbon emissions associated with their investments. The dashboard visualizes the carbon emissions data and provides insights into the environmental consequences of their financial decisions. Users can track their progress in reducing their carbon footprint and explore options to offset their emissions.
+Deploy NatureFi (NFI) token on the Celo Testnet with a total circulation of 500,000 tokens.
+Ensure compliance with ERC-20 standards and compatibility with the Celo blockchain.
+Carbon Credit Market Integration:
 
-Additionally, the dashboard allows users to redeem their TCO2 tokens, earned through various activities or purchased from the carbon storefront, for carbon credits from the available pools. Users can retire their TCO2 tokens and contribute to verified carbon offset projects, actively participating in environmental conservation efforts.
+Integrate the in-built DEX with the carbon storefront to enable users to purchase carbon credits using NatureFi (NFI) tokens.
+Implement functionalities for users to use NatureFi (NFI) tokens to buy or sell carbon credits from verified carbon offset projects.
+Climate Impact Dashboard Enhancement:
 
-Overall, CarbonXchange empowers individuals and organizations to take action against climate change by providing a user-friendly platform for buying carbon credits, understanding their climate impact, and actively supporting sustainable projects. By leveraging the power of blockchain technology, transparency, and decentralized governance, CarbonXchange aims to drive global efforts towards carbon neutrality and a more sustainable future.
+Enable users to redeem TCO2 tokens for carbon credits from available carbon offset pools.
+Provide a visual representation of users' carbon footprint and environmental impact through the dashboard.
+Toucan SDK and Graph API Integration:
 
 # Development Tools Used
 - Celo composer
 - Toucan SDK and Graph API
 
 # How to Setup the project
-- Fork/clone the repo
 - Do npm install or yarn add to add all required dependencies
 - To start the development server, navigate to react-app directory and type `npm run dev` to start the local server
 
 # Live Preview 
-To test the features of the dapp. you can checkout the live link [here](https://carbonxchange.vercel.app/).
+To test demo  [here](https://carbonxchange.vercel.app/).
 
-# LICENSE
-Distributed under the MIT dashboard. See [License](https://github.com/gconnect/Toucan-Dashboard/blob/master/LICENSE) for details.
