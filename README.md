@@ -1,5 +1,4 @@
-# code-test001
-Requirements &amp; Instructions
+
 
 # Carbon Credit Market Place & Dashboard
 
@@ -32,4 +31,4 @@ Toucan SDK and Graph API Integration:
 - To start the development server, navigate to react-app directory and type `npm run dev` to start the local server
 
 # Live Preview 
-To test demo  [here](https://carbonxchange.vercel.app/).
+To test demo  [here](https://code-test001-preview.vercel.app/).
